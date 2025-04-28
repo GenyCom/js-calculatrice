@@ -1,0 +1,40 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Calculatrice Basique 2025</title> 
+    <link rel="stylesheet" href="./css/style.css"> 
+</head> 
+<body> 
+    <!-- zone calculatrice --> 
+    <div class="calculatrice-zone"> 
+        <div class="operations-zone"> 
+            <input type="text" id="operation-text-zone" placeholder="zone d'opérations" aria-label="Zone d'opérations" /> 
+            <div class="buttons-grid">
+                <button id="number-1" aria-label="Number 1">1</button> 
+                <button id="number-2" aria-label="Number 2">2</button> 
+                <button id="number-3" aria-label="Number 3">3</button> 
+                <button id="number-4" aria-label="Number 4">4</button> 
+                <button id="number-5" aria-label="Number 5">5</button> 
+                <button id="number-6" aria-label="Number 6">6</button> 
+                <button id="number-7" aria-label="Number 7">7</button> 
+                <button id="number-8" aria-label="Number 8">8</button> 
+                <button id="number-9" aria-label="Number 9">9</button> 
+                <button id="number-0" aria-label="Number 0">0</button> 
+                <button id="button-float" aria-label="Decimal point">.</button> 
+                <button id="submit" aria-label="Calculate">=</button>
+                <button id="empty" aria-label="Clear">Vider</button>
+                <button id="addition" aria-label="Addition">+</button>
+                <button id="soustraction" aria-label="Subtraction">-</button>
+            </div>
+        </div> 
+        <div class="display-zone"> 
+            <h5>Affichage du résultat :</h5> 
+            <pre id="display-area"></pre>
+        </div> 
+    </div>  
+    <!-- link js file --> 
+    <script src="./js/script.js"></script> 
+</body> 
+</html>
